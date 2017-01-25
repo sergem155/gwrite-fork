@@ -1,0 +1,7 @@
+include COPYING ChangeLog AUTHORS README
+include install
+include *.in *.py *.png *.sh *.cmd *.cfg
+recursive-include script *
+recursive-include gwrite *.js *.html *.htm *.png *.gif *.jpg *.py *.txt *.xml *.in *.conf *.ui
+recursive-include po *.po *.in
+
